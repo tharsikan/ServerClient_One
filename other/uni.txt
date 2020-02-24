@@ -1,0 +1,47 @@
+login as student 
+	get : 
+		this student detail
+		this studnet result by level (defaul level 1)
+		this student GPA (each level & cumulative Gpa) Graph
+	
+	edit:
+		this student detail
+
+	post: 
+		this student detail (default name, email , reg_no .. cant edit)
+
+	dashboard:
+		this student detail
+		this studnet result by level (defaul level 1)
+		this student GPA (each level & cumulative Gpa) Graph	
+ 
+		
+login as lecture
+	get :
+		this lecture detail 
+
+		get all studnet 
+			filter by level
+			filter by course
+			filter by name
+		get a student 
+			find by name
+			find by reg_no
+
+	dashboard:
+		this lecture detail
+		this lecture course (Result Graph)
+
+login as admin
+	post : 
+	udate:
+	delete:
+		create lecture 
+		create student
+		create level
+			create course
+		allocate lecture_course
+		allocate student_course
+		post marks student_course
+-
+			
